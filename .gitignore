@@ -1,0 +1,24 @@
+# Credentials and local configuration
+.env
+.env.*
+*.env
+!.env.example
+!*.env.example
+keys.txt
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local IDE settings
+.idea/
+.vscode/
+
+# Local source documents and generated graph artifacts
+*.pdf
+knowledge_graph_*.json
+knowledge_graph_*.json.tmp
+knowledge_graph_*.html

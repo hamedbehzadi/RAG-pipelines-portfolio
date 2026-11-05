@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+azure-search-documents
+azure-identity
+langchain-community
+langchain-huggingface
+langchain-openai>=1.0.1
+sentence-transformers
